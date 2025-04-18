@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    await axios.post('YOUR_DISCORD_WEBHOOK_URL', {
+    await axios.post('https://discord.com/api/webhooks/1362906286706004178/xy-a9AhgRpMWaGTnJ7v3o-vcexqE0WZYacI7waOM40a2ILj0tGXeRf0nUbYkp4-ivR1Q', {
       content: `🚨 **New Load Test Executed!**
 🌐 Target: ${target}
 ⚙️ Threads: ${threads}
